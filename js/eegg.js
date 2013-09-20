@@ -21,7 +21,7 @@ $(function() {
 						if(kI < konami.length - 1) {
 							kI += 1;
 						} else {
-							console.log($.gimmesomelove);
+							toastr.success('There are some very cool people who did some incredibly hard work for you to enjoy this portal. Namely Aditya, Amjad, Sachin and Shouvik!');
 						}
 					} else {
 						kI = 0;
