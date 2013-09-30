@@ -29,7 +29,7 @@ $(function() {
 					}
 					
 					if(keys[i] === aditya[aI]) {
-						if(kI < aditya.length - 1) {
+						if(aI < aditya.length - 1) {
 							aI += 1;
 						} else {
 							x = $("img[alt='Aditya Ghosh']");
